@@ -1,0 +1,547 @@
+/* ==UserStyle==
+@name         Habitica Modern Clean Theme
+@namespace    Habitica-Modern
+@author       Combined Modern Edition
+@description  A modern, clean, and streamlined Habitica theme combining dark mode, minimalist design, and enhanced UI/UX.
+@version      1.0.0
+@license      CC-BY-SA-4.0
+@preprocessor uso
+==/UserStyle== */
+
+@-moz-document url-prefix("https://habitica.com/")
+{
+  /* ============ COLOR PALETTE ============ */
+  :root {
+    --bg-primary: #0f0f0f;
+    --bg-secondary: #1a1a1a;
+    --bg-tertiary: #252525;
+    --bg-hover: #3a3a3a;
+    --text-primary: #e8e8e8;
+    --text-secondary: #b0b0b0;
+    --accent: #dada00;
+    --border: #333333;
+    --border-light: #404040;
+  }
+
+  /* ============ GLOBAL STYLES ============ */
+  body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--text-primary) !important;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI",
+      sans-serif !important;
+  }
+
+  /* ============ HEADER & NAVIGATION ============ */
+  #app-header {
+    background-color: var(--bg-secondary) !important;
+    border-top: 1px solid var(--border) !important;
+    border-bottom: 1px solid var(--border) !important;
+    padding-top: 1.25rem !important;
+  }
+
+  #app-header * {
+    color: var(--text-primary) !important;
+  }
+
+  /* Hide party members and avatar for streamlined header */
+  #app-header .view-party,
+  #app-header .party-members,
+  #app-header .no-party,
+  #app-header .member-details .avatar {
+    display: none !important;
+  }
+
+  #app-header .member-stats {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+  }
+
+  #app-header .member-stats > * {
+    margin-bottom: 0 !important;
+    margin-right: 40px;
+  }
+
+  .navbar {
+    background: var(--bg-secondary) !important;
+    padding: 1rem 1.5rem !important;
+  }
+
+  .navbar-brand {
+    display: none !important;
+  }
+
+  /* ============ TOPBAR & MENUS ============ */
+  .topbar {
+    background: var(--bg-secondary) !important;
+  }
+
+  .topbar-item > a {
+    padding: 0.5em 1em !important;
+    font-family: "Poppins", sans-serif !important;
+    font-size: 13px !important;
+    font-weight: 400 !important;
+  }
+
+  .topbar-item {
+    padding-top: unset !important;
+    height: unset !important;
+  }
+
+  .topbar-item:hover {
+    background: var(--bg-hover) !important;
+  }
+
+  .topbar .topbar-item.active:not(:hover) {
+    box-shadow: inset 0 -4px 0 var(--bg-tertiary) !important;
+    color: var(--text-primary) !important;
+  }
+
+  .topbar-dropdown {
+    background: var(--bg-secondary) !important;
+  }
+
+  .topbar-dropdown-item {
+    font-family: "Poppins", sans-serif !important;
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    padding: 0.4em 1em !important;
+    background: var(--bg-tertiary) !important;
+    color: var(--text-primary) !important;
+  }
+
+  .topbar-dropdown-item:hover {
+    background: var(--bg-hover) !important;
+  }
+
+  .secondary-menu {
+    background-color: var(--bg-secondary) !important;
+  }
+
+  .secondary-menu a {
+    color: var(--text-primary) !important;
+    font-size: 14px !important;
+    padding: 11px 14px !important;
+    font-family: "Poppins", sans-serif !important;
+  }
+
+  .secondary-menu a:hover {
+    background: var(--bg-hover) !important;
+    color: var(--text-primary) !important;
+  }
+
+  .nav-link {
+    font-family: "Poppins", sans-serif !important;
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    padding: 0.4em 1em !important;
+  }
+
+  .nav-link.active {
+    box-shadow: 0 4px 0 var(--text-primary) !important;
+    color: var(--text-primary) !important;
+  }
+
+  /* ============ TASKS ============ */
+  .tasks-column.reward {
+    display: none !important;
+  }
+
+  .tasks-navigation {
+    display: none !important;
+  }
+
+  .row.tasks-navigation {
+    display: none !important;
+  }
+
+  .tasks-list {
+    background: var(--bg-secondary) !important;
+  }
+
+  .tasks-list .column-background {
+    display: none !important;
+  }
+
+  .task-title {
+    padding-bottom: 0 !important;
+    color: var(--text-primary) !important;
+  }
+
+  .task-title p {
+    margin-bottom: 0;
+    font-family: "Poppins", sans-serif !important;
+  }
+
+  .tasks-column.habit .task-title p {
+    padding-right: 70px;
+  }
+
+  .task-content {
+    background: var(--bg-tertiary) !important;
+    color: var(--text-primary) !important;
+    border-color: var(--border) !important;
+  }
+
+  .sortable-tasks,
+  .task-wrapper,
+  .task {
+    background: var(--bg-secondary) !important;
+  }
+
+  .left-control {
+    width: 35px !important;
+    min-height: 24px !important;
+  }
+
+  .right-control {
+    width: 35px !important;
+    min-height: 24px !important;
+  }
+
+  .task-disabled-habit-control-bg {
+    background-color: var(--bg-hover) !important;
+  }
+
+  /* ============ TASKS Dis ============ */
+  /*  .checklist
+  {
+    display: none;
+  }
+
+  .task:hover .checklist
+  {
+    display: block;
+  }
+
+ .task-notes
+  {
+		display: none;
+  }
+
+  .task:hover .task-notes
+  {
+		display: block;
+  } */
+
+  /* ======================== */
+
+  .row {
+    background: var(--bg-primary) !important;
+  }
+
+  .tasks-column.col-lg-3 {
+    flex: 0 0 33%;
+    max-width: 33%;
+  }
+
+  .habit {
+    margin-left: 0.6% !important;
+  }
+
+  .task:hover {
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4) !important;
+  }
+
+  .task:hover .left-control,
+  .task:hover .right-control,
+  .task:hover .task-content {
+    border-color: var(--bg-hover) !important;
+  }
+
+  /* ============ CHECKLISTS ============ */
+  /*   .checklist {
+    display: none;
+  }
+
+  .task:hover .checklist {
+    display: block;
+  }
+ */
+  /* ============ QUICK ADD & FILTERS ============ */
+  .quick-add {
+    padding: 6px 8px !important;
+    background-color: transparent;
+    color: var(--text-primary) !important;
+    border-color: var(--border) !important;
+  }
+
+  .quick-add:focus {
+    padding: 12px 16px !important;
+    background: var(--bg-tertiary) !important;
+    color: var(--text-primary) !important;
+  }
+
+  .quick-add-tip {
+    display: none !important;
+  }
+
+  .filter-panel {
+    max-width: initial !important;
+  }
+
+  .filter-panel p {
+    white-space: nowrap;
+  }
+
+  .filter-panel .col-6 {
+    flex: 0 0 100%;
+    max-width: 100% !important;
+  }
+
+  .filter.active {
+    color: var(--text-primary) !important;
+    border-bottom: 0 !important;
+  }
+
+  .badge-purple {
+    background: var(--bg-hover) !important;
+  }
+
+  /* ============ SIDEBAR ============ */
+  .sidebar,
+  .standard-sidebar {
+    background-color: var(--bg-primary) !important;
+  }
+
+  .sidebar h3,
+  .standard-sidebar h3 {
+    color: var(--text-primary);
+    font-family: "Poppins", sans-serif !important;
+  }
+
+  /* ============ CARDS & MODALS ============ */
+  .card {
+    background: var(--bg-tertiary) !important;
+    border-color: var(--border) !important;
+  }
+
+  .card-body {
+    background: var(--bg-tertiary) !important;
+  }
+
+  .card-body h3,
+  .card-body p,
+  .card-body ul {
+    color: var(--text-primary) !important;
+  }
+
+  .card-body p.time {
+    font-size: 11px !important;
+    color: var(--text-secondary) !important;
+  }
+
+  .card-body hr {
+    border-color: var(--border) !important;
+  }
+
+  .modal-content {
+    background-color: var(--bg-secondary);
+  }
+
+  .modal-content h2,
+  .modal-content h4,
+  .modal-content h5 {
+    color: var(--text-primary);
+    font-family: "Poppins", sans-serif !important;
+  }
+
+  .edit-avatar h3 {
+    color: var(--bg-tertiary) !important;
+  }
+
+  h3.purple {
+    color: var(--bg-tertiary) !important;
+  }
+
+  /* ============ BUTTONS & DROPDOWNS ============ */
+  .dropdown-label {
+    color: var(--text-primary);
+    font-family: "Poppins", sans-serif !important;
+  }
+
+  .dropdown-item:active,
+  .dropdown-item:hover,
+  .dropdown-item.active {
+    background-color: var(--bg-hover);
+    color: var(--text-primary);
+  }
+
+  .btn-secondary:active,
+  .btn-secondary:focus,
+  .btn-secondary.active,
+  .dropdown > .btn-secondary:active,
+  .dropdown > .btn-secondary:focus,
+  .dropdown > .btn-secondary.active,
+  .dropdown.show > .dropdown-toggle:not(.btn-success) {
+    border-color: var(--border-light) !important;
+    background-color: var(--bg-tertiary) !important;
+  }
+
+  .btn-show-more:hover {
+    color: var(--border-light) !important;
+  }
+
+  #create-task-btn {
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    background: var(--bg-hover) !important;
+    color: var(--text-primary) !important;
+  }
+
+  .tasks-navigation .btn {
+    padding: 5.5px 15.5px;
+  }
+
+  /* ============ QUESTS & PROGRESS ============ */
+  .quest-active-section .quest-box {
+    background: var(--bg-tertiary) !important;
+    color: var(--text-primary) !important;
+    border-color: var(--border) !important;
+  }
+
+  .quest-active-section .quest-box h4,
+  .quest-active-section .quest-box a {
+    color: var(--text-primary) !important;
+  }
+
+  .grey-progress-bar {
+    background-color: var(--bg-tertiary) !important;
+    margin-bottom: 10px;
+  }
+
+  .boss-health-bar {
+    background-color: var(--bg-hover) !important;
+  }
+
+  /* ============ CHAT & MISC ============ */
+  .chat-row textarea {
+    background-color: var(--bg-tertiary) !important;
+    color: var(--text-primary) !important;
+    border-color: var(--border) !important;
+  }
+
+  footer {
+    display: none !important;
+  }
+
+  .svg-icon svg {
+    color: var(--text-secondary);
+  }
+
+  .top-menu-icon.svg-icon,
+  .top-menu-icon span {
+    vertical-align: middle !important;
+    width: 16px !important;
+    height: auto !important;
+  }
+
+  .avatar {
+    border-radius: 6px !important;
+  }
+
+  .item {
+    border-radius: 15px !important;
+    background-color: var(--text-primary) !important;
+  }
+
+  .challenge {
+    background-color: var(--bg-secondary) !important;
+  }
+
+  .challenge .well {
+    background-color: var(--bg-tertiary) !important;
+  }
+
+  .challenge .well > div {
+    color: var(--text-primary) !important;
+  }
+
+  .challenge a {
+    color: var(--text-primary) !important;
+  }
+
+  .challenge p {
+    color: var(--text-primary) !important;
+  }
+
+  .category-label {
+    background-color: var(--bg-tertiary);
+  }
+
+  .challenge .challenge-prize {
+    background-color: var(--bg-tertiary) !important;
+    border-bottom-left-radius: 12px !important;
+  }
+
+  .at-text {
+    color: var(--accent) !important;
+  }
+
+  /* ============ RESPONSIVE ============ */
+  @media (max-width: 1200px) {
+    #app-header .member-stats .progress {
+      min-width: 100px !important;
+    }
+  }
+
+  @media (max-width: 900px) {
+    #app-header .member-stats > * {
+      margin-right: 15px;
+    }
+
+    #app-header .member-stats .progress-container {
+      position: relative;
+      margin-top: -10px;
+    }
+
+    #app-header .member-stats .progress {
+      position: absolute;
+      min-width: auto !important;
+      width: 100%;
+      bottom: -10px;
+      left: 0;
+      height: 5px;
+      right: 10px;
+    }
+
+    #app-header .member-stats .progress-container .small-text {
+      margin-left: 0 !important;
+    }
+  }
+
+  @media (max-width: 500px) {
+    #app-header .member-stats .progress-container .svg-icon {
+      display: none !important;
+    }
+  }
+
+  /* ============ No Scrooll bar ============ */
+
+  /* Chrome, Edge, Safari */
+  ::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+
+  /* Firefox */
+  * {
+    scrollbar-width: none;
+    scrollbar-color: transparent transparent;
+  }
+
+  /* IE */
+  * {
+    -ms-overflow-style: none;
+  }
+}
