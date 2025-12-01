@@ -12,6 +12,7 @@ UserStyles are custom CSS rules that change how a website looks
 
 - [AniList](#anilist)
 - [NovelBin](#novelbin)
+- [Habitica](#habitica)
 
 ## AniList
 
@@ -25,17 +26,18 @@ Website: [anilist.co](https://anilist.co)
 
 Website: [novelbin.me](https://novelbin.me)
 
-|  Page   |                                                             Screenshots                                                              |
-| :-----: | :----------------------------------------------------------------------------------------------------------------------------------: |
-| Profile | ![NovelBin](https://raw.githubusercontent.com/rockyxwall/my-user-scripts-and-styles/refs/heads/main/UserStyles/NovelBin/preview.jpg) |
+| Page |                                                             Screenshots                                                              |
+| :--: | :----------------------------------------------------------------------------------------------------------------------------------: |
+| Home | ![NovelBin](https://raw.githubusercontent.com/rockyxwall/my-user-scripts-and-styles/refs/heads/main/UserStyles/NovelBin/preview.jpg) |
 
 ## Habitica
 
 Website: [habitica.com](https://habitica.com)
+[Install](https://raw.githubusercontent.com/rockyxwall/my-user-scripts-and-styles/refs/heads/main/UserStyles/Habitica/userstyle.css)
 
-|  Page   |                                                                Screenshots                                                                 |
-| :-----: | :----------------------------------------------------------------------------------------------------------------------------------------: |
-| Profile | ![Habitica](https://raw.githubusercontent.com/rockyxwall/my-user-scripts-and-styles/refs/heads/main/UserStyles/Habitica/habitica.com.jpeg) |
+| Page |                                                                Screenshots                                                                 |
+| :--: | :----------------------------------------------------------------------------------------------------------------------------------------: |
+| Home | ![Habitica](https://raw.githubusercontent.com/rockyxwall/my-user-scripts-and-styles/refs/heads/main/UserStyles/Habitica/habitica.com.jpeg) |
 
 Log:
 25/11/2025 Created
