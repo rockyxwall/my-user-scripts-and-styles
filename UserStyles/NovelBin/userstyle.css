@@ -1,0 +1,331 @@
+/* ==UserStyle==
+@name         NovelBin Ultimate-Darkness Theme
+@author       rockyxwall
+@description  Dark Theme For NovelBin
+@version      1.0.1
+@homepageURL  https://github.com/rockyxwall/NovelBin-Ultimate-Darkness-Theme
+@userstyles.world https://userstyles.world/style/16359/novelbin-ultimate-darkness-theme
+==/UserStyle== */
+@-moz-document url-prefix("https://novelbin.com/")
+{
+  :root {
+    --color-bg-p: rgb(35, 35, 35);
+    --color-bg-s: rgb(53, 53, 53);
+    --color-bg-s-2: rgba(53, 53, 53, 0.8);
+    --color-text-p: rgb(178, 178, 178);
+    --color-blue: rgb(112, 200, 237);
+    --color-shadow: rgba(0, 0, 0, 0.4);
+  }
+
+  .navbar-default {
+    background-color: var(--color-bg-p) !important;
+    border-color: var(--color-bg-s) !important;
+  }
+
+  #container {
+    background: var(--color-bg-p) !important;
+  }
+
+  .navbar-breadcrumb {
+    background: var(--color-bg-p);
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--color-bg-s);
+  }
+
+  .header-list {
+    color: var(--color-text-p) !important;
+    border-bottom: 1px solid var(--color-bg-s);
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+  }
+
+  .header-list a {
+    color: var(--color-text-p) !important;
+  }
+
+  .glyphicon {
+    color: var(--color-blue);
+  }
+
+  #hot-genre-select,
+  #new-genre-select {
+    background: var(--color-bg-s-2) !important;
+    border-radius: 4px;
+    position: absolute;
+  }
+
+  .index-novel .item .item-img {
+    border-radius: 4px;
+    box-shadow: 0 0 1px var(--color-shadow);
+  }
+
+  .item.top-1 div.title {
+    color: var(--color-blue);
+  }
+
+  .index-novel div.title {
+    color: var(--color-text-p);
+    background-color: var(--color-bg-s-2);
+    text-shadow: 1px 2px 2px var(--color-shadow);
+    border-radius: 0 0 4px 4px;
+  }
+
+  .col-sidebar .list {
+    background-color: var(--color-bg-p);
+    border: 1px solid var(--color-bg-s);
+    border-radius: 4px;
+  }
+
+  .col-sidebar .list > .row {
+    background-color: var(--color-bg-p);
+  }
+
+  .col-sidebar .list.list-genre > .row > div a {
+    color: var(--color-text-p);
+  }
+
+  #index-novel-completed .caption > h3 {
+    margin-bottom: 4px;
+  }
+
+  #index-novel-completed .caption > h3 {
+    color: var(--color-text-p);
+  }
+
+  .btn-xs {
+    background-color: var(--color-bg-s);
+    color: var(--color-text-p) !important;
+  }
+
+  .footer {
+    background-color: var(--color-bg-p);
+    border-top: 1px solid var(--color-bg-s);
+    color: var(--color-text-p);
+  }
+
+  @media only screen and (min-width: 1025px) {
+    #novel-list-index .list h3 a {
+      color: var(--color-text-p);
+    }
+  }
+
+  @media only screen and (min-width: 1025px) {
+    .list-thumb img {
+      box-shadow: 0 0 1px var(--color-shadow);
+      border-radius: 4px !important;
+      overflow: hidden;
+    }
+  }
+}
+
+@-moz-document url-prefix("https://novelbin.com/b/")
+{
+  .navbar-default {
+    background-color: #232323 !important;
+    border-color: #353535;
+  }
+
+  #container {
+    background: #232323 !important;
+  }
+
+  .navbar-breadcrumb {
+    background: #232323;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #353535;
+  }
+
+  .breadcrumb-container {
+    height: 45px;
+    line-height: 48px;
+    text-align: center;
+    font-size: 28px !important;
+    font-family: "Nunito Sans", sans-serif;
+  }
+
+  .book img {
+    border-radius: 4px !important;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.4) !important;
+    overflow: hidden !important;
+  }
+
+  .col-info-desc {
+    font-family: "Nunito Sans", sans-serif;
+    /* 	font-size: 18px; */
+    line-height: 1.7;
+    padding: 30px 19px 40px;
+    user-select: none;
+    background-color: #2c2c2c;
+    color: #858585;
+    border: 2px solid #353535;
+    border-top: 0;
+    position: relative;
+    border-radius: 5px;
+  }
+
+  @media only screen and (min-width: 992px) {
+    .col-sidebar .list.list-novel {
+      margin: 0px;
+      font-family: "Nunito Sans", sans-serif;
+      line-height: 1.7;
+      padding: 30px 19px 40px;
+      user-select: none;
+      background-color: #2c2c2c;
+      color: #858585;
+      border: 2px solid #353535;
+      border-top: 0;
+      position: relative;
+      border-radius: 5px;
+    }
+  }
+
+  .title {
+    text-transform: capitalize !important;
+    color: #b2b2b2 !important;
+  }
+
+  .info-meta li {
+    margin: 5px 0;
+    color: #b2b2b2 !important;
+  }
+
+  .info-meta a {
+    color: rgba(178, 178, 178, 0.5) !important;
+  }
+
+  #novel .tab-content {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 20px;
+    line-height: 1.7;
+    padding: 30px 19px 40px;
+    user-select: none;
+    background-color: #2c2c2c;
+    color: #858585;
+    border: 2px solid #353535;
+    border-top: 0;
+    position: relative;
+    border-radius: 5px;
+  }
+
+  .l-chapter {
+    margin: 20px 0 0;
+    font-size: 16px;
+    background-color: #2c2c2c;
+    color: #858585;
+    border: 2px solid #353535;
+    border-radius: 5px;
+  }
+
+  .l-chapter .item {
+    line-height: 30px;
+    padding: 8px 120px 8px 180px;
+    border-bottom: none !important;
+    position: relative;
+  }
+
+  #novel .nav-tabs {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    overflow: auto;
+    padding: 5px;
+    background-color: #2c2c2c;
+    color: #858585;
+    border: 2px solid #353535;
+    border-radius: 5px;
+  }
+}
+
+@-moz-document url-prefix("https://novelbin.novel-online.org/novel/"),
+url-prefix("https://novelbin.novel-online.org/novel/"),
+url-prefix("https://novelbin.meganovels.org/novel-book"),
+url-prefix("https://novelbin.noveltop1.me/novel-book/"),
+url-prefix("https://novelbin.englishnovel.net/novel-book")
+{
+  /* novelbin.novel-online.org */
+  .navbar-default {
+    background-color: #232323 !important;
+    border-color: #353535;
+  }
+
+  #container {
+    background: #232323 !important;
+  }
+
+  .navbar-breadcrumb {
+    background: #232323;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #353535;
+  }
+
+  .breadcrumb-container {
+    height: 45px;
+    line-height: 48px;
+    text-align: center;
+    font-size: 28px !important;
+    font-family: "Nunito Sans", sans-serif;
+  }
+
+  .novel-title,
+  .chr-title,
+  .chr-start,
+  .chr-end {
+    display: none !important;
+  }
+
+  .btn-success {
+    background: #333 !important;
+    border-color: #353535;
+  }
+  .btn-success:hover {
+    background: #858585 !important;
+    border-color: #353535;
+  }
+
+  .chapter .chr-c {
+    /* 	font-size: 28px !important; */
+    font-family: "Nunito Sans", sans-serif;
+    line-height: 1.7;
+    padding: 30px 19px 40px;
+    user-select: none;
+    background-color: #2c2c2c;
+    color: #858585;
+    border: 2px solid #353535;
+    border-top: 0;
+    position: relative;
+    border-radius: 5px;
+  }
+
+  @media (min-width: 1024px) {
+    .chapter .chr-c {
+      padding: 20px 40px 40px;
+      position: relative;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container {
+      width: 970px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .chapter .chr-c p {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .footer {
+    background-color: #232323;
+    border-top: 1px solid #353535;
+    color: #858585;
+  }
+
+  html,
+  body {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(133, 133, 133) #ffff;
+  }
+}
