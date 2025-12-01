@@ -20,9 +20,9 @@ Install: [userscript.world](https://userstyles.world/style/14789)
 <br>
 Website: `anilist.co`
 
-|  Page   |                                                            Screenshots                                                             |
-| :-----: | :--------------------------------------------------------------------------------------------------------------------------------: |
-| Profile | ![AniList](https://raw.githubusercontent.com/rockyxwall/my-user-scripts-and-styles/refs/heads/main/UserStyles/AniList/preview.jpg) |
+|  Page   |                                                                Screenshots                                                                 |
+| :-----: | :----------------------------------------------------------------------------------------------------------------------------------------: |
+| Profile | ![AniList](https://raw.githubusercontent.com/rockyxwall/my-user-scripts-and-styles/refs/heads/main/UserStyles/AniList/anilist-profile.jpg) |
 
 ## NovelBin
 
@@ -30,9 +30,9 @@ Install: [userscript.world](https://userstyles.world/style/16359)
 <br>
 Website: `novelbin.me`
 
-| Page |                                                             Screenshots                                                              |
-| :--: | :----------------------------------------------------------------------------------------------------------------------------------: |
-| Home | ![NovelBin](https://raw.githubusercontent.com/rockyxwall/my-user-scripts-and-styles/refs/heads/main/UserStyles/NovelBin/preview.jpg) |
+| Page |                                                                Screenshots                                                                 |
+| :--: | :----------------------------------------------------------------------------------------------------------------------------------------: |
+| Home | ![NovelBin](https://raw.githubusercontent.com/rockyxwall/my-user-scripts-and-styles/refs/heads/main/UserStyles/NovelBin/novelbin-home.jpg) |
 
 ## Habitica
 
@@ -40,9 +40,9 @@ Install: [userscript.world](https://userstyles.world/style/25369)
 <br>
 Website: `habitica.com`
 
-| Page |                                                                Screenshots                                                                 |
-| :--: | :----------------------------------------------------------------------------------------------------------------------------------------: |
-| Home | ![Habitica](https://raw.githubusercontent.com/rockyxwall/my-user-scripts-and-styles/refs/heads/main/UserStyles/Habitica/habitica.com.jpeg) |
+| Page |                                                                 Screenshots                                                                 |
+| :--: | :-----------------------------------------------------------------------------------------------------------------------------------------: |
+| Home | ![Habitica](https://raw.githubusercontent.com/rockyxwall/my-user-scripts-and-styles/refs/heads/main/UserStyles/Habitica/habitica-home.jpeg) |
 
 Log:
 
