@@ -16,7 +16,9 @@ UserStyles are custom CSS rules that change how a website looks
 
 ## AniList
 
-Website: [anilist.co](https://anilist.co)
+Install: [userscript.world](https://userstyles.world/style/14789)
+<br>
+Website: `anilist.co`
 
 |  Page   |                                                            Screenshots                                                             |
 | :-----: | :--------------------------------------------------------------------------------------------------------------------------------: |
@@ -24,7 +26,9 @@ Website: [anilist.co](https://anilist.co)
 
 ## NovelBin
 
-Website: [novelbin.me](https://novelbin.me)
+Install: [userscript.world](https://userstyles.world/style/16359)
+<br>
+Website: `novelbin.me`
 
 | Page |                                                             Screenshots                                                              |
 | :--: | :----------------------------------------------------------------------------------------------------------------------------------: |
@@ -32,12 +36,14 @@ Website: [novelbin.me](https://novelbin.me)
 
 ## Habitica
 
-Website: [habitica.com](https://habitica.com)
-[Install](https://raw.githubusercontent.com/rockyxwall/my-user-scripts-and-styles/refs/heads/main/UserStyles/Habitica/userstyle.css)
+Install: [userscript.world](https://userstyles.world/style/25369)
+<br>
+Website: `habitica.com`
 
 | Page |                                                                Screenshots                                                                 |
 | :--: | :----------------------------------------------------------------------------------------------------------------------------------------: |
 | Home | ![Habitica](https://raw.githubusercontent.com/rockyxwall/my-user-scripts-and-styles/refs/heads/main/UserStyles/Habitica/habitica.com.jpeg) |
 
 Log:
-25/11/2025 Created
+
+- 25/11/2025 Created
