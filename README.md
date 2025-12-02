@@ -47,3 +47,7 @@ Website: `habitica.com`
 Log:
 
 - 25/11/2025 Created
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
