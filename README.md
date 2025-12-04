@@ -10,29 +10,9 @@ UserScripts are small scripts written in JavaScript that modify how a website be
 
 UserStyles are custom CSS rules that change how a website looks
 
-- [AniList](#anilist)
-- [NovelBin](#novelbin)
 - [Habitica](#habitica)
-
-## AniList
-
-Install: [userscript.world](https://userstyles.world/style/14789)
-<br>
-Website: `anilist.co`
-
-|  Page   |                                                                Screenshots                                                                 |
-| :-----: | :----------------------------------------------------------------------------------------------------------------------------------------: |
-| Profile | ![AniList](https://raw.githubusercontent.com/rockyxwall/my-user-scripts-and-styles/refs/heads/main/UserStyles/AniList/anilist-profile.jpg) |
-
-## NovelBin
-
-Install: [userscript.world](https://userstyles.world/style/16359)
-<br>
-Website: `novelbin.me`
-
-| Page |                                                                Screenshots                                                                 |
-| :--: | :----------------------------------------------------------------------------------------------------------------------------------------: |
-| Home | ![NovelBin](https://raw.githubusercontent.com/rockyxwall/my-user-scripts-and-styles/refs/heads/main/UserStyles/NovelBin/novelbin-home.jpg) |
+- [NovelBin](#novelbin)
+- [AniList](#anilist)
 
 ## Habitica
 
@@ -47,6 +27,26 @@ Website: `habitica.com`
 Log:
 
 - 25/11/2025 Created
+
+## NovelBin
+
+Install: [userscript.world](https://userstyles.world/style/16359)
+<br>
+Website: `novelbin.me`
+
+| Page |                                                                Screenshots                                                                 |
+| :--: | :----------------------------------------------------------------------------------------------------------------------------------------: |
+| Home | ![NovelBin](https://raw.githubusercontent.com/rockyxwall/my-user-scripts-and-styles/refs/heads/main/UserStyles/NovelBin/novelbin-home.jpg) |
+
+## AniList
+
+Install: [userscript.world](https://userstyles.world/style/14789)
+<br>
+Website: `anilist.co`
+
+|  Page   |                                                                Screenshots                                                                 |
+| :-----: | :----------------------------------------------------------------------------------------------------------------------------------------: |
+| Profile | ![AniList](https://raw.githubusercontent.com/rockyxwall/my-user-scripts-and-styles/refs/heads/main/UserStyles/AniList/anilist-profile.jpg) |
 
 ## License
 
